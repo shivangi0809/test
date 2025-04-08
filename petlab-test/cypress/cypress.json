@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://offer.thepetlabco.co.uk",
+  "env": {
+    "urls": "cypress/fixtures/urls.json"
+  }
+}
