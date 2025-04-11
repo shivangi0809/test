@@ -1,0 +1,40 @@
+{
+  "products": {
+    "probiotic_chews": {
+      "name": "Probiotic Chews",
+      "urlPattern": "probiotic-chews",
+      "subscribeAndSave": "[data-element-id='subscribe-and-save']",
+      "oneTimePurchase": "[data-element-id='one-time']",
+      "priceSelector": "strong[aria-label^='Sale price']",
+      "currencyRegex": "(\\£|\\$|\\€)\\s?\\d+(\\.\\d{2})?",
+      "addToCart": "[data-element-id='add-to-cart-button']",
+      "requiresShippingToShowTax": true,
+      "cookie": "#onetrust-accept-btn-handler"
+    },
+    "stock_upbxgy": {
+      "name": "Stock Up BxGy",
+      "urlPattern": "stock_upbxgy",
+      "buy_5_stock": "[data-element-id='otp-quantity-selector-1']",
+      "buy_4_stock": "[data-element-id='otp-quantity-selector-2']",
+      "buy_3_stock": "[data-element-id='otp-quantity-selector-3']",
+      "priceSelector": "strong[aria-label^='Sale price']",
+      "currencyRegex": "(\\£|\\$|\\€)\\s?\\d+(\\.\\d{2})?",
+      "addToCart": "[data-element-id='add-to-cart-button']",
+      "requiresShippingToShowTax": true
+    },
+    "probiotic_allergy_immune": {
+      "name": "Allergy Immune",
+      "urlPattern": "probiotic-allergy-immune",
+      "priceSelector": "strong[aria-label^='Sale price']",
+      "currencyRegex": "(\\£|\\$|\\€)\\s?\\d+(\\.\\d{2})?",
+      "addToCart": "[data-element-id='add-to-cart-button']",
+      "requiresShippingToShowTax": true,
+      "dog_size_small": "[data-element-id='sub-product-selector-small'] input",
+      "dog_size_medium": "[data-element-id='sub-product-selector-medium'] input",
+      "dog_size_large": "[data-element-id='sub-product-selector-large'] input",
+      "tub_chews_small": "[data-element-id='sub-quantity-selector-1']",
+      "tub_chews_medium": "[data-element-id='sub-quantity-selector-2']",
+      "tub_chews_large": "[data-element-id='sub-quantity-selector-3']"
+    }
+  }
+}
